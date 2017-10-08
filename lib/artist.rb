@@ -23,7 +23,6 @@ class Artist
   end
 
   def self.song_count
-    # iterate through @songs
     @@song_count
   end
 end
