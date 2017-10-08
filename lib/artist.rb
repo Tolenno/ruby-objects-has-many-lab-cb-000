@@ -14,9 +14,8 @@ class Artist
     song.artist = self
   end
 
-  def add_song_by_name(song)
+  def add_song_by_name(song_name)
     # take in argument of song from Song:class then adds that song to @song array and tells the song that it belongs to that artist
-    @songs << song
-    song.artist = self
+    Song.new
   end
 end
