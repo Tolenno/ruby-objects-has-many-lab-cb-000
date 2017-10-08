@@ -12,6 +12,7 @@ class Artist
   def add_song(song)
     # take in argument of song from Song:class then adds that song to @song array and tells the song that it belongs to that artist
     @songs << song
+    @@total_songs << song
     song.artist = self
   end
 
