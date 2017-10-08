@@ -13,5 +13,4 @@ class Artist
     @songs << song
     song.artist = self
   end
-  binding.pry
 end
