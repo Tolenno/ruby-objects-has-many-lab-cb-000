@@ -24,6 +24,6 @@ class Artist
 
   def self.song_count
     # iterate through @songs
-    @@total_songs.size
+    
   end
 end
