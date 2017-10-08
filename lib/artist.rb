@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist
   attr_accessor :name, :songs
-  @@total_songs = 0
+  @@song_count = 0
 
   def initialize(name)
     @name = name
