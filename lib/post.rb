@@ -6,6 +6,6 @@ class Post
   end
 
   def author_name
-    Artist.author.name
+    Author.author.name
   end
 end
